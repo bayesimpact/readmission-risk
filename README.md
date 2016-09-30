@@ -20,6 +20,8 @@ TODO
 
 ### Feature extraction
 
+![Data pipeline](https://github.com/bayesimpact/readmission-risk/blob/master/doc/images/data-pipeline.png?raw=true)
+
 TODO
 
 ### Model loading and prediction
