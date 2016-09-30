@@ -1,0 +1,6 @@
+[flake8]
+ignore = D102
+max-line-length = 100
+
+; Explanation:
+;   D102 = 'docstring for public methods' - this is a false alarm when we override methods (e.g. in feature extractors)
