@@ -1,6 +1,6 @@
 # Bayes Impact 30-day patient readmission model
 
-The result of a 12-month project by Bayes Impact in collaboration with Sutter Health, funded by Robert Wood Johnson Foundation. It is part of the [Bayes Impact healthcare focus area](www.bayes.org/focus/health).
+The result of a 12-month project by [Bayes Impact](http://www.bayesimpact.org/) in collaboration with [Sutter Health](http://www.sutterhealth.org/), funded by [Robert Wood Johnson Foundation](http://www.rwjf.org/). It is part of the [Bayes Impact healthcare focus area](http://www.bayesimpact.org/focus/health).
 
 For questions, contact Mehdi Jamei (mehdi@bayes.org) or health@bayes.org.
 
@@ -19,7 +19,7 @@ Sutter Health extracted hospital stay data from their EHR, Epic, for some 300,00
 ## Repo contents / key files
 
 - `/features/features_*.txt` (TODO) – Descriptions of the 1667 features used by the model, as well as the 100-feature and 500-feature subsets.
-- `/features/statistics.ipynb` (TODO) – Jupyter notebook showing summary statistics for each feature.
+- `/features/statistics.ipynb` (TODO) – [Jupyter](http://jupyter.org/) notebook showing summary statistics for each feature.
 - `/features/extraction/` – Example feature extraction pipeline that can be adapted to extract this set of features from an EMR system.
 - `/model/*.h5` – Neural network model weights, in HDF5 format, for the full model, as well as the 100-feature and 500-feature reduced models.
 - `/model/*.json` – Neural network model structures, in JSON format, for the full model, as well as the 100-feature and 500-feature reduced models.
@@ -30,9 +30,9 @@ Below is the rough pipeline of data flow and work represented here. The code for
 
 ![Data pipeline](https://github.com/bayesimpact/readmission-risk/blob/master/doc/images/data-pipeline.png?raw=true)
 
-### Model loading and prediction (sample Python code)
+### Model loading and prediction (sample Python/Jupyter code)
 
-```
+```python
 %env KERAS_BACKEND=tensorflow
 import keras
 from keras.models import model_from_json
