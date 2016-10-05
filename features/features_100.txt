@@ -1,3 +1,6 @@
+# The 100-feature model uses the following subset of features, in this order.
+# See features_full.txt for descriptions of each feature.
+
 UtilizationExtractor__pre_6_month_inpatient
 UtilizationExtractor__pre_12_month_inpatient
 ComorbiditiesExtractor__charlson_index
