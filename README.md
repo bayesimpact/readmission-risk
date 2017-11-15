@@ -19,7 +19,7 @@ Sutter Health extracted hospital stay data from their EHR, Epic, for some 300,00
 ## Repo contents / key files
 
 - `/features/features_*.txt` – Descriptions of the 1667 features used by the model, as well as the 100-feature and 500-feature subsets.
-- `/features/statistics.ipynb` (TODO) – [Jupyter](http://jupyter.org/) notebook showing summary statistics for each feature.
+- `/features/statistics.ipynb` – [Jupyter](http://jupyter.org/) notebook showing summary statistics for each feature.
 - `/features/extraction/` – Example feature extraction pipeline that can be adapted to extract this set of features from an EMR system.
 - `/model/*.h5` – Neural network model weights, in HDF5 format, for the full model, as well as the 100-feature and 500-feature reduced models.
 - `/model/*.json` – Neural network model structures, in JSON format, for the full model, as well as the 100-feature and 500-feature reduced models.
