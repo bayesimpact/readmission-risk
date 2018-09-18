@@ -1,8 +1,8 @@
 # Bayes Impact 30-day patient readmission model
 
-The result of a 12-month project by [Bayes Impact](http://www.bayesimpact.org/) in collaboration with [Sutter Health](http://www.sutterhealth.org/), funded by [Robert Wood Johnson Foundation](http://www.rwjf.org/). It is part of the [Bayes Impact healthcare focus area](http://www.bayesimpact.org/focus/health).
+The result of a 12-month project by in collaboration with [Sutter Health](http://www.sutterhealth.org/), funded by [Robert Wood Johnson Foundation](http://www.rwjf.org/).
 
-For questions, contact Mehdi Jamei (mehdi@bayes.org) or health@bayes.org.
+For questions, contact Mehdi Jamei (mehdi@thebeaconlabs.org).
 
 ## Summary of the repo
 
