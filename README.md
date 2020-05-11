@@ -2,7 +2,7 @@
 
 The result of a 12-month project by in collaboration with [Sutter Health](http://www.sutterhealth.org/), funded by [Robert Wood Johnson Foundation](http://www.rwjf.org/).
 
-For questions, contact Mehdi Jamei (mehdi@thebeaconlabs.org).
+For questions, contact us (hello@bayesimpact.org).
 
 ## Summary of the repo
 
